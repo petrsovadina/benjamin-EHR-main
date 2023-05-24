@@ -111,4 +111,4 @@
       "babel.config.js",
       "jest.sequencer.js",
       "package-lock.json",
-      "rollup.config
+      "rollup.config.js",
