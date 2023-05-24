@@ -112,6 +112,9 @@
       "package-lock.json",
       "rollup.config.mjs",
       "webpack.config.js"
-    ]
+    
+  }"scripts": {
+    "dev": "command-to-start-dev-server"
   }
+  
 }
