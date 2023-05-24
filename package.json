@@ -114,7 +114,7 @@
       "webpack.config.js"
     
   }"scripts": {
-    "dev": "command-to-start-dev-server"
+    "dev": "npm run dev"
   }
   
 }
