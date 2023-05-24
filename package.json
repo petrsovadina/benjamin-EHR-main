@@ -10,7 +10,8 @@
     "test": "turbo run test",
     "lint": "eslint packages/",
     "prettier": "prettier --write .",
-    "cyclonedx": "cyclonedx-npm --omit dev --omit optional --omit peer"
+    "cyclonedx": "cyclonedx-npm --omit dev --omit optional --omit peer",
+    "dev": "npm run dev"
   },
   "workspaces": [
     "packages/*",
@@ -110,11 +111,4 @@
       "babel.config.js",
       "jest.sequencer.js",
       "package-lock.json",
-      "rollup.config.mjs",
-      "webpack.config.js"
-    
-  }"scripts": {
-    "dev": "npm run dev"
-  }
-  
-}
+      "rollup.config
